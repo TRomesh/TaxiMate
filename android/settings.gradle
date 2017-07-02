@@ -1,0 +1,3 @@
+rootProject.name = 'taximate'
+
+include ':app'
