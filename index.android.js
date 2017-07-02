@@ -28,6 +28,7 @@ export default class taximate extends Component {
           <Right />
         </Header>
         <Content>
+          <App/>
         </Content>
         <Footer>
           <FooterTab>
