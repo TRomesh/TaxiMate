@@ -4,13 +4,23 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { AppRegistry, StyleSheet } from "react-native";
 import {
-  AppRegistry,
-  StyleSheet
-} from 'react-native';
-import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
-import App from './src/App';
+  Container,
+  Header,
+  Title,
+  Content,
+  Footer,
+  FooterTab,
+  Button,
+  Left,
+  Right,
+  Body,
+  Icon,
+  Text
+} from "native-base";
+import App from "./src/App";
 
 export default class taximate extends Component {
   render() {
@@ -19,7 +29,7 @@ export default class taximate extends Component {
         <Header>
           <Left>
             <Button transparent>
-              <Icon name='menu' />
+              <Icon name="menu" />
             </Button>
           </Left>
           <Body>
@@ -28,7 +38,7 @@ export default class taximate extends Component {
           <Right />
         </Header>
         <Content>
-          <App/>
+          <App />
         </Content>
         <Footer>
           <FooterTab>
@@ -42,5 +52,4 @@ export default class taximate extends Component {
   }
 }
 
-
-AppRegistry.registerComponent('taximate', () => taximate);
+AppRegistry.registerComponent("taximate", () => taximate);

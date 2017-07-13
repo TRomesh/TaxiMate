@@ -1,5 +1,14 @@
-import React, { Component } from 'react';
-import { Container, Content, Form, Item, Input, Label, Button, Text } from 'native-base';
+import React, { Component } from "react";
+import {
+  Container,
+  Content,
+  Form,
+  Item,
+  Input,
+  Label,
+  Button,
+  Text
+} from "native-base";
 export default class FixedLabelExample extends Component {
   render() {
     return (
@@ -14,9 +23,9 @@ export default class FixedLabelExample extends Component {
               <Label>Password</Label>
               <Input />
             </Item>
-              <Button full>
-                <Text>Login</Text>
-              </Button>
+            <Button full>
+              <Text>Login</Text>
+            </Button>
           </Form>
         </Content>
       </Container>
